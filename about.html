@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding:  16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.card img{
+height: 200px;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-padding w3-xlarge w3-teal">
+    <a href="index.html"><i class="fa fa-home"></i></a>
+  </div>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>structured investment program for pre-seed stage companies in Nigeria . aims to empower mission-driven founders by democratizing access to world-class company building support, which is available today only to a few well-networked entrepreneurs.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="aisha.png" alt="aisha ajjya" style="width:100%">
+      <div class="container">
+        <h2>Aisha Ajiya</h2>
+        <p class="title">CEO & Founder</p>
+        <p>We deliver the highest quality medical care to people of all ages, and practice healthcare the way it should be – where patients and doctors form enduring relationships and our team works in a unified manner to deliver personalized medical attention across the healthcare continuum.Everything we do is geared towards improving the patient experience. We strive to make the healthcare experience personalized, convenient, and pleasant. We advocate for our patients and coordinate their care so they can maneuver the healthcare system in a hassle-free manner. .</p>
+        <p>aishaajiya@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Qadri" style="width:100%">
+      <div class="container">
+
+        <h2>Qadiri</h2>
+        <p class="title">Pharmacy</p>
+        <p>  To help patients get better and live healthy life by delivering best and quality medical supplies and medicines along with expert advice and friendly service.</p>
+        <p>ashekiya@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Ashekiya" style="width:100%">
+      <div class="container">
+        <h2>Ashekiya</h2>
+        <p class="title">Designer</p>
+        <p>Everything we do is geared towards improving the patient experience. We strive to make the healthcare experience personalized, convenient, and pleasant. We advocate for our patients and coordinate their care so they can maneuver the healthcare system in a hassle-free manner. .</p>
+        <p>ashekiya@example.com</p>
+        <p><button class="button">Contact</button></p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
