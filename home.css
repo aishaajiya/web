@@ -142,6 +142,7 @@ font-size: 25px;
   right: 500px;
   transform: translate(-50%, -50%);
   text-align: center;
+
 }
 
  hr {
@@ -156,6 +157,7 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
+  bottom: 100%;
   resize: vertical;
 }
 
