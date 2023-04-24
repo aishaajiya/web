@@ -137,7 +137,7 @@ font-size: 25px;
 
 .middle {
   position: relative;
-  top: 100%;
+  top: 50%;
   left: 400px;
   right: 500px;
   transform: translate(-50%, -50%);
