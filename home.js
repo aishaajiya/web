@@ -38,6 +38,8 @@ document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   if (distance < 0) {
     clearInterval(countdownfunction);
     document.getElementById("demo").innerHTML = "Happy birthday 🎂 Aisha Ajiya";
+} 
+
 }, 1000);
 
 
