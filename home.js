@@ -12,7 +12,7 @@ document.body.style.backgroundColor = "white";
 
 
 
-var countDownDate = new Date("march 4, 2024 15:37:25").getTime();
+var countDownDate = new Date("April 24, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
