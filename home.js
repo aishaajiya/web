@@ -38,6 +38,7 @@ document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   if (distance < 0) {
     clearInterval(countdownfunction);
     document.getElementById("demo").innerHTML = "Happy birthday 🎂 Aisha Ajiya";
+    document.getElementById("demo").innerHTML = "15 Years, 11 Months, 29 Days";
   }
 }, 1000);
 
